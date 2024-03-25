@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>你好呀</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+      }
+      .nav {
+        display: flex;
+        height: 65px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+      }
+      .Long-strip {
+        display: flex;
+        align-items: center;
+        width: 1100px;
+        height: 65px;
+        border-radius: 10px;
+        background: linear-gradient(300deg, #ffcaca, #24a4ff);
+      }
+      .Long-strip ul {
+        display: flex;
+        align-items: center;
+      }
+      .photo img {
+        margin-left: 0;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+      }
+      .welcome {
+        font-family: "仓耳小丸子";
+        font-size: 30px;
+        margin-left: 30px;
+      }
+      .middle-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        margin-left: 65px;
+      }
+      .middle-nav li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 65px;
+        padding: 0 20px;
+      }
+      .middle-nav li a:hover {
+        color: #fff;
+        border-bottom: 2px solid black;
+      }
+      .frame {
+        display: flex;
+        width: 1100px;
+        height: 100%;
+        border-radius: 10px;
+        background-color: rgba(153, 153, 153, 0.2);
+        margin: 10px auto;
+      }
+      .big-frame {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1100px;
+        height: 100%;
+        margin: 0 auto;
+        justify-content: space-around;
+        /* background-color: #24a4ff; */
+      }
+      .small-frame {
+        width: 250px;
+        height: 400px;
+        border-radius: 30px;
+        /* background-color: pink; */
+      }
+      .small-frame img {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+      }
+      .small-frame p {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 20px;
+        font-family: "宋体";
+        font-weight: bold;
+      }
+      .text {
+        display: flex;
+        width: 1100px;
+        height: 70px;
+        margin: 40px auto;
+        border: 2px dashed bisque;
+        background-color: #fadede;
+      }
+      .text p {
+        font-family: "黑体";
+        line-height: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="Long-strip">
+        <ul>
+          <li class="photo">
+            <img src="images/tianxin.png" alt="" />
+          </li>
+          <li class="welcome">
+            <p>欢迎光临</p>
+          </li>
+        </ul>
+        <div class="middle-nav">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="index.html">PS作品</a></li>
+          <li><a href="Adobe  Premiere pro.html">PR作品</a></li>
+          <li><a href="前端.html">前端作品</a></li>
+          <li><a href="Contact information.html">联系方式</a></li>
+        </div>
+      </div>
+    </div>
+    <div class="frame">
+      <div class="big-frame">
+        <div class="small-frame">
+          <img src="images/1.png" alt="" />
+          <p>抖音</p>
+        </div>
+        <div class="small-frame">
+          <img src="images/2.png" alt="" />
+          <p>哔哩哔哩</p>
+        </div>
+        <div class="small-frame">
+          <img src="images/3.png" alt="" />
+          <p>小红书</p>
+        </div>
+      </div>
+    </div>
+    <div class="text">
+      <p>更多视频请通过抖音，哔哩哔哩，小红书搜索“后生崽动漫社”观看</p>
+    </div>
+  </body>
+</html>

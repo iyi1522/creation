@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>你好呀</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+      }
+      .nav {
+        display: flex;
+        height: 65px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+      }
+      .Long-strip {
+        display: flex;
+        align-items: center;
+        width: 1100px;
+        height: 65px;
+        border-radius: 10px;
+        background: linear-gradient(300deg, #ffcaca, #24a4ff);
+      }
+      .Long-strip ul {
+        display: flex;
+        align-items: center;
+      }
+      .photo img {
+        margin-left: 0;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+      }
+      .welcome {
+        font-family: "仓耳小丸子";
+        font-size: 30px;
+        margin-left: 30px;
+      }
+      .middle-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        margin-left: 65px;
+      }
+      .middle-nav li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 65px;
+        padding: 0 20px;
+      }
+      .middle-nav li a:hover {
+        color: #fff;
+        border-bottom: 2px solid black;
+      }
+      .frame {
+        display: flex;
+        width: 1100px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        background-color: pink;
+        margin: 200px auto;
+      }
+      .frame p {
+        font-size: 25px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="Long-strip">
+        <ul>
+          <li class="photo">
+            <img src="images/tianxin.png" alt="" />
+          </li>
+          <li class="welcome">
+            <p>欢迎光临</p>
+          </li>
+        </ul>
+        <div class="middle-nav">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="index.html">PS作品</a></li>
+          <li><a href="Adobe  Premiere pro.html">PR作品</a></li>
+          <li><a href="前端.html">前端作品</a></li>
+          <li><a href="Contact information.html">联系方式</a></li>
+        </div>
+      </div>
+    </div>
+    <div class="frame">
+      <div class="big-frame">
+        <p>如您所见，我利用HTML5 CSS3 写出了你所看到得样子</p>
+      </div>
+    </div>
+  </body>
+</html>
